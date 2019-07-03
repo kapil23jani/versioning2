@@ -15,18 +15,10 @@ class ApidocsController < ActionController::Base
             #     key :name, 'MIT'
             # end
         end
-        tag do
-            key :name, 'Article'
-            key :description, 'Article Details'
-            externalDocs do
-                key :description, 'Find more info here'
-                key :url, 'https://swagger.io'
-            end
-        end
         key :host, 'localhost:3000'
         key :basePath, '/api/v2'
-        key :consumes, ['application/json', 'multipart/form-data']
-        key :produces, ['application/json']
+        # key :consumes, ['multipart/form-data']
+        # key :produces, ['application/json']
     end
 
     # A list of all classes that have swagger_* declarations.
