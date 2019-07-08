@@ -17,6 +17,10 @@ gem 'puma', '~> 3.11'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'swagger-blocks'
 
+gem 'devise'
+gem 'simple_token_authentication', '~> 1.0' # see semver.org
+
+gem 'jwt'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
